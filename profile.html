@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+      integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/index.css" />
+    <title>Coding Penguin</title>
+  </head>
+
+  <body>
+    <section class="wrapper">
+      <nav class="navbar">
+        <ul>
+          <li>
+            <a href="home.html"
+              ><span id="active"><i class="fas fa-home"></i>Home</span></a
+            >
+          </li>
+          <li>
+            <a href="#"><i class="fas fa-male"></i>About Me</a>
+          </li>
+          <li>
+            <a href="#"><i class="far fa-newspaper"></i>Quizes</a>
+          </li>
+          <li>
+            <a href="#"><i class="fas fa-project-diagram"></i>Projects</a>
+          </li>
+          <li>
+            <a href="#modal"><i class="far fa-address-card"></i>Contact</a>
+          </li>
+        </ul>
+
+        <div class="social_media">
+          <a href="https://facebook.com" target="_blank"
+            ><i class="fab fa-facebook-square"></i
+          ></a>
+          <a href="https://instagram.com" target="_blank"
+            ><i class="fab fa-instagram"></i
+          ></a>
+          <a href="https://twitter.com" target="_blank"
+            ><i class="fab fa-twitter"></i
+          ></a>
+        </div>
+      </nav>
+
+      <section class="main_content">
+        <div class="header"><img src="./images/dansheader.png" alt="" /></div>
+        <div class="content_info">
+          <h1>\Welcome to my website/</h1>
+
+          <p>
+            From the moment I typed "Hello World" in the terminal I was hooked.
+            I had an instant desire to build more.
+          </p>
+          <p>
+            Come join me on my development journey to see where I started to
+            where I am today.
+          </p>
+
+          <img
+            src="./images/blur-close-up-code-computer-546819.jpg"
+            alt="engagement photo with wife one"
+            class="gallery"
+          />
+          <img
+            src="./images/blur-close-up-code-computer-546819.jpg"
+            alt="engagement photo with wife one"
+            class="gallery"
+          />
+          <img
+            src="./images/blur-close-up-code-computer-546819.jpg"
+            alt="engagement photo with wife one"
+            class="gallery"
+          />
+        </div>
+        <button id="color">My Favorite Color</button>
+        <button id="place">My Favorite Place</button>
+        <button id="ritual">My Favorite Ritual</button>
+      </section>
+    </section>
+
+    <div class="modal_container" id="modal">
+      <div class="modal">
+        <a href="#" class="close">X</a>
+        <span class="modal_heading"> ENTER YOUR DETAILS </span>
+        <form action="#">
+          <input type="email" placeholder="Email@email.com" />
+          <br />
+          <input type="text" placeholder="Content" size="50" />
+          <br />
+          <input type="tel" placeholder="(999) 999-9999" />
+          <br />
+          <input type="submit" class="btnSubmit" value="SUBMIT" />
+        </form>
+      </div>
+    </div>
+    <a href="./home.html"><< Back </a>
+  </body>
+  <script src="profile.js"></script>
+</html>

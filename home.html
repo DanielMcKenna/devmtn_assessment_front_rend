@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Homepage</title>
+    <link href="styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <nav>
+      <ol>
+        <li class="crumb"><a href="./home.html">Home</a></li>
+        <li class="crumb"><a href="./profile.html">Profile</a></li>
+        <li class="crumb"><a href="./about.html">About</a></li>
+      </ol>
+    </nav>
+
+    <content>
+      <h1>Welcome to this little website.</h1>
+      <p>Welcome to this website</p>
+      <!-- insert hello world here -->
+
+      <img
+        src="https://www.munchkin.com/media/catalog/product/cache/fa94a348188ff11085d90b41566e795b/3/1/31001_white_hot_safety_bath_ducky.jpg"
+        id="duck"
+      />
+
+      <h2>Contact Us</h2>
+      <form id="contact">
+        Your name:
+        <input type="text" />
+
+        Message:
+        <input type="textarea" />
+
+        <input type="radio" id="google" name="contact_way" value="google" />
+        <label for="google">google</label>
+        <input type="radio" id="other" name="contact_way" value="other" />
+        <label for="other">Other</label>
+        <input type="radio" id="friend" name="contact_way" value="friend" />
+        <label for="friend">A friend</label>
+
+        <input type="submit" />
+      </form>
+
+      <ul>
+        <li>You look good</li>
+        <li>you are smart</li>
+        <li>You are brave</li>
+      </ul>
+    </content>
+
+    <script src="about.js"></script>
+  </body>
+</html>

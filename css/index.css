@@ -1,0 +1,40 @@
+#active {
+  color: #66FCF1;
+}
+.gallery {
+  width: 30%;
+  float: left;
+  margin: 1.66%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  object-fit: cover;
+  height: 400px !important;
+}
+
+.main_content .content_info {
+  font-family: 'Raleway', sans-serif;
+}
+
+.main_content .content_info h1{
+  margin-left: 1.66%;
+  font-size: 23px;
+  border-bottom: 2px solid rgb(73, 67, 67);
+  width: 30%;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  text-transform: uppercase;
+}
+
+.main_content .content_info p {
+  margin-left: 1.66%;
+  font-size: 20px;
+  width: 96.64%;
+  padding-bottom: 10px;
+  padding-top: 10px;
+
+}
+
+.main_content .content_info p:nth-of-type(2) {
+  border-bottom: 2px solid rgb(73, 67, 67);
+}
+
+/* pictures from pexels.com and from my friend Joe */
